@@ -39,7 +39,7 @@ Then open `http://localhost:8000` in your browser.
 ---
 
 ## Project Structure
-
+ .
 ├── index.html # Main HTML markup and Bootstrap integration
 ├── styles.css # Custom CSS styles for layout and design
 ├── script.js # JavaScript logic handling API requests and UI updates
