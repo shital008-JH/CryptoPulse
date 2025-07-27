@@ -23,7 +23,7 @@ You can download the app from here:
 ## Usage
 
 1. Clone or download the repository:
-git clone https://github.com/yourusername/cryptocurrency-price-checker.git
+git clone https://github.com/shital008-JH/cryptocurrency-price-checker.git
 
 2. Open the project folder in your terminal or file explorer.
 
