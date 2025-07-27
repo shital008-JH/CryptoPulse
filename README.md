@@ -1,51 +1,76 @@
-## Cryptocurrency Price Checker
-A simple, responsive web app to view real-time cryptocurrency prices and basic coin info, built with HTML, CSS, Bootstrap, and JavaScript using the CoinGecko public API.
+ # Cryptocurrency Price Checker
+
+A simple, responsive web app that fetches real-time cryptocurrency prices and displays brief information about selected coins.  
+Built with HTML, CSS, Bootstrap 5, and JavaScript using the [CoinGecko Public API](https://www.coingecko.com/en/api).
 
 ---
 
-## Features:
-1.Live price lookup for major cryptocurrencies (BTC, ETH, XRP, USDT,BNB, SOL, ADA, DOGE, LTC, DOT, UNI)
-2.Short info/blurb for each coin
-3.A sync API integration (fetches from CoinGecko)
-4.Responsive UI (Bootstrap 5)
-5.Minimalist design with clear user workflow
+## Features
+
+- Live price lookup for major cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Tether (USDT), Binance Coin (BNB), Solana (SOL), Cardano (ADA), Dogecoin (DOGE), Litecoin (LTC), Polkadot (DOT), and Uniswap (UNI).  
+- Informative descriptions for each coin displayed alongside prices.  
+- Asynchronous fetching of data from the CoinGecko API.  
+- Responsive and user-friendly UI styled with Bootstrap 5.  
+- Clean layout with a simple dropdown selection and fetch button.
+
+---
+## Download the APK
+You can download the app from here:
+[Download CryptoPulse APK] (https://www.upload-apk.com/en/FvlYhGZ6tQqr8w2)
 
 ---
 
-## Usage:
--Clone or download this repo:
+## Usage
+
+1. Clone or download the repository:
 git clone https://github.com/yourusername/cryptocurrency-price-checker.git
 
--Open index.html in your web browser using Live Server or a simple HTTP server (recommended for API calls to work).
+2. Open the project folder in your terminal or file explorer.
 
--Select a cryptocurrency from the dropdown and click "Check Price" to
-view the current USD price and a brief description.
+3. For best results, serve the app using a local HTTP server or VS Code Live Server extension to avoid CORS issues.  
+Example with Python:
+python -m http.server 8000
+Then open `http://localhost:8000` in your browser.
 
----
+4. Open `index.html` in your web browser.
 
-## Technologies Used:
-HTML5, CSS3, JavaScript (ES6+)
-Bootstrap 5 (CDN)
-CoinGecko API
-
----
-
-## Project Structure:
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+5. Select a cryptocurrency from the dropdown menu and click **Check Price** to view the current USD price and a short description.
 
 ---
 
-## Credits & License:
-API: CoinGecko Public API
+## Project Structure
+
+├── index.html # Main HTML markup and Bootstrap integration
+├── styles.css # Custom CSS styles for layout and design
+├── script.js # JavaScript logic handling API requests and UI updates
+└── README.md # Project documentation
 
 ---
 
-## Designed & Developed by: 
-Shital Singh
+## Technologies Used
+
+- **HTML5** — Markup and structure  
+- **CSS3** — Styling and layout  
+- **Bootstrap 5** — Responsive UI framework  
+- **JavaScript (ES6+)** — Dynamic functionality and API integration  
+- **[CoinGecko Public API](https://www.coingecko.com/en/api)** — Real-time cryptocurrency data
 
 ---
-This project is for educational.
-Feel free to fork or adapt for personal projects, but please do not duplicate as-is for commercial purposes.
+
+## Credits & License
+
+- Data and API provided by [CoinGecko](https://www.coingecko.com/).  
+- Developed and maintained by **Shital Singh**.
+
+This project is for educational purposes only. Feel free to fork and adapt for personal use, but please avoid direct commercial duplication.
+
+---
+
+## Contact
+
+For any questions or feedback, feel free to reach out.
+
+---
+
+*Thank you for checking out the Cryptocurrency Price Checker app!*
+
