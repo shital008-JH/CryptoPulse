@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Prices</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="my-4">Cryptocurrency Prices</h1>
+        
+        <label for="cryptoSelect" class="form-label">Choose a cryptocurrency:</label>
+        <select id="cryptoSelect" class="form-select">
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="ripple">Ripple (XRP)</option>
+            <option value="tether">Tether (USDT)</option>
+            <option value="binancecoin">Binance Coin (BNB)</option>
+            <option value="solana">Solana (SOL)</option>
+            <option value="cardano">Cardano (ADA)</option>
+            <option value="dogecoin">Dogecoin (DOGE)</option>
+            <option value="litecoin">Litecoin (LTC)</option>
+            <option value="polkadot">Polkadot (DOT)</option>
+            <option value="uniswap">Uniswap (UNI)</option>
+        </select>
+        
+        <button class="btn btn-primary mt-3" onclick="fetchCryptoPrice()">Check Price</button>
+
+        <h3 class="mt-4">Price: <span id="price">-</span></h3>
+
+        <div class="card">
+            <h4>Coin Info</h4>
+            <p id="coinInfo"><em>Select a cryptocurrency to see details.</em></p>
+        </div>
+    </div>
+
+    <div id="footer">Made by- Shital Singh 😎🥷😎</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
